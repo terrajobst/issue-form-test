@@ -41,8 +41,7 @@ body:
     attributes:
       label: API Usage
       description: |
-        Please provide code examples that highlight how the proposed API additions are meant to be consumed.
-        This will help suggest whether the API has the right shape to be functional, performant and useable.
+        Please provide code examples that highlight how the proposed API additions are meant to be consumed. This will help suggest whether the API has the right shape to be functional, performant and useable.
       placeholder: API usage
       value: |
         ```C#
@@ -62,6 +61,6 @@ body:
       label: Risks
       description: |
         Please mention any risks that to your knowledge the API proposal might entail, such as breaking changes, performance regressions, etc.
-      placeholder: API usage
+      placeholder: Risks
     validations:
       required: false
